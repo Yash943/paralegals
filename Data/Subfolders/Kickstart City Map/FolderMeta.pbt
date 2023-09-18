@@ -1,0 +1,63 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "024526c31e4a454682f84172d1272688"
+  OwnerAccountId: "98451989bc5a4a04ab3046bb57c3bda3"
+  OwnerName: "XRStudio"
+  Version: "1.4.0"
+}
+AssetIdsOriginalToNew {
+  key: 790436653622245018
+  value: 9368770838288476406
+}
+AssetIdsOriginalToNew {
+  key: 1931106351282508191
+  value: 2752936372088086798
+}
+AssetIdsOriginalToNew {
+  key: 2770523926636482454
+  value: 8011680942623118418
+}
+AssetIdsOriginalToNew {
+  key: 3778270508525773766
+  value: 17857304003319667345
+}
+AssetIdsOriginalToNew {
+  key: 3892227522541896762
+  value: 12868223279191243950
+}
+AssetIdsOriginalToNew {
+  key: 4266211963032573870
+  value: 18035558585506182678
+}
+AssetIdsOriginalToNew {
+  key: 6423720706040796017
+  value: 4042357905760504332
+}
+AssetIdsOriginalToNew {
+  key: 6972438684494983660
+  value: 10673781205606529862
+}
+AssetIdsOriginalToNew {
+  key: 8024940685832225509
+  value: 16722629069346624906
+}
+AssetIdsOriginalToNew {
+  key: 9455279045309902786
+  value: 15343133757679899400
+}
+AssetIdsOriginalToNew {
+  key: 9687940429416150189
+  value: 4989692152811362992
+}
+AssetIdsOriginalToNew {
+  key: 10470804265466605567
+  value: 8237894300753325764
+}
+AssetIdsOriginalToNew {
+  key: 16806459187595498764
+  value: 3869141669798765634
+}
+AssetIdsOriginalToNew {
+  key: 18146291258777857538
+  value: 11318855285194690020
+}
