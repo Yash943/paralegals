@@ -17,7 +17,6 @@ Objects {
   ChildIds: 9086936746104183945
   ChildIds: 16813558807825262224
   ChildIds: 10005074784157121906
-  ChildIds: 14982843161775482339
   ChildIds: 787159850161605007
   ChildIds: 7118907480534591373
   ChildIds: 7791749513618847440
@@ -29,6 +28,8 @@ Objects {
   ChildIds: 7913250241859499127
   ChildIds: 1498942268120258559
   ChildIds: 4088082122421372134
+  ChildIds: 1988759913689209617
+  ChildIds: 6042585920080618685
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -41,6 +42,141 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6042585920080618685
+  Name: "Gamer Desk"
+  Transform {
+    Location {
+      X: 7700
+      Y: 18750
+      Z: 444
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1.1
+      Y: 1.1
+      Z: 1.1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Gamer Desk"
+  }
+  InstanceHistory {
+    SelfId: 6042585920080618685
+    SubobjectId: 18122940505755572360
+    InstanceId: 13850816486389190079
+    TemplateId: 12628043293523218258
+    WasRoot: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1988759913689209617
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: 7700
+      Y: 18875
+      Z: 600
+    }
+    Rotation {
+      Yaw: -1.02452814e-05
+    }
+    Scale {
+      X: 1
+      Y: 2.5
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 6476084622206325820
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Enter mini game world"
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+    InteractionTemplate {
+      Id: 841534158063459245
+    }
+    BreadcrumbTemplate {
+      Id: 841534158063459245
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6476084622206325820
+  Name: "change_scene"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 0.4
+      Z: 1
+    }
+  }
+  ParentId: 1988759913689209617
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17964067707702680302
+    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -140792,56 +140928,6 @@ Objects {
       Id: 2814368618312973715
     }
   }
-}
-Objects {
-  Id: 14982843161775482339
-  Name: "Default Floor"
-  Transform {
-    Location {
-      Z: -50
-    }
-    Rotation {
-    }
-    Scale {
-      X: 50
-      Y: 50
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:edistancerelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 10005074784157121906

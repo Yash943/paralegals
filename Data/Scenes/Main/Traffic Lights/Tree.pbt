@@ -22466,6 +22466,7 @@ Objects {
   ChildIds: 2615164643452448572
   ChildIds: 6248554817102505629
   ChildIds: 5054672348556188786
+  ChildIds: 2540749741350502185
   ChildIds: 7757753299988529595
   ChildIds: 16831399265399385604
   ChildIds: 1259764322570011506
@@ -23415,9 +23416,6 @@ Objects {
     }
   }
   ParentId: 17280838856269730609
-  ChildIds: 5150942719931052960
-  ChildIds: 3353077190671533023
-  ChildIds: 5833795987136836218
   ChildIds: 15952687415423141249
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -23505,204 +23503,6 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5833795987136836218
-  Name: "Traffic Signal 01"
-  Transform {
-    Location {
-      Z: 160.499268
-    }
-    Rotation {
-      Yaw: 89.999939
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1259764322570011506
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.474
-        G: 0.252800971
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 18035558585506182678
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Lights:color"
-      Color {
-        R: 0.02
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13668720775929090807
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 5833795987136836218
-    SubobjectId: 1697254750955703738
-    InstanceId: 13649565771950985918
-    TemplateId: 17857304003319667345
-  }
-  Relevance {
-    Value: "mc:edistancerelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 3353077190671533023
-  Name: "Traffic Signal 01"
-  Transform {
-    Location {
-      Z: 85.4992676
-    }
-    Rotation {
-      Yaw: 89.999939
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1259764322570011506
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Lights:color"
-      Color {
-        R: 0.02
-        G: 0.0173333343
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13668720775929090807
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 3353077190671533023
-    SubobjectId: 7633767730648054815
-    InstanceId: 13649565771950985918
-    TemplateId: 17857304003319667345
-  }
-  Relevance {
-    Value: "mc:edistancerelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 5150942719931052960
-  Name: "Traffic Signal 01"
-  Transform {
-    Location {
-      Z: 10.4992676
-    }
-    Rotation {
-      Yaw: 89.999939
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1259764322570011506
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13668720775929090807
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 5150942719931052960
-    SubobjectId: 1057327980678240
-    InstanceId: 13649565771950985918
-    TemplateId: 17857304003319667345
-  }
-  Relevance {
-    Value: "mc:edistancerelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
   Id: 16831399265399385604
   Name: "traffic signal light"
   Transform {
@@ -23720,9 +23520,6 @@ Objects {
     }
   }
   ParentId: 17280838856269730609
-  ChildIds: 15168328730590681515
-  ChildIds: 7236617271236413285
-  ChildIds: 13151661219898087649
   ChildIds: 8371414964750038329
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -23798,204 +23595,6 @@ Objects {
   InstanceHistory {
     SelfId: 8371414964750038329
     SubobjectId: 3698914553036032761
-    InstanceId: 13649565771950985918
-    TemplateId: 17857304003319667345
-  }
-  Relevance {
-    Value: "mc:edistancerelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 13151661219898087649
-  Name: "Traffic Signal 01"
-  Transform {
-    Location {
-      Z: 160.499268
-    }
-    Rotation {
-      Yaw: 89.999939
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16831399265399385604
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.474
-        G: 0.252800971
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 18035558585506182678
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Lights:color"
-      Color {
-        R: 0.02
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13668720775929090807
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 13151661219898087649
-    SubobjectId: 17436816857941321505
-    InstanceId: 13649565771950985918
-    TemplateId: 17857304003319667345
-  }
-  Relevance {
-    Value: "mc:edistancerelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 7236617271236413285
-  Name: "Traffic Signal 01"
-  Transform {
-    Location {
-      Z: 85.4992676
-    }
-    Rotation {
-      Yaw: 89.999939
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16831399265399385604
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Lights:color"
-      Color {
-        R: 0.02
-        G: 0.0173333343
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13668720775929090807
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 7236617271236413285
-    SubobjectId: 2528124332705331365
-    InstanceId: 13649565771950985918
-    TemplateId: 17857304003319667345
-  }
-  Relevance {
-    Value: "mc:edistancerelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 15168328730590681515
-  Name: "Traffic Signal 01"
-  Transform {
-    Location {
-      Z: 10.4992676
-    }
-    Rotation {
-      Yaw: 89.999939
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16831399265399385604
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13668720775929090807
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 15168328730590681515
-    SubobjectId: 10806572177413465707
     InstanceId: 13649565771950985918
     TemplateId: 17857304003319667345
   }
@@ -24324,6 +23923,106 @@ Objects {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 2540749741350502185
+  Name: "Traffic Light 2Way"
+  Transform {
+    Location {
+      X: 16465
+      Y: 14521
+      Z: 868
+    }
+    Rotation {
+      Yaw: 169.999969
+    }
+    Scale {
+      X: 0.536084712
+      Y: 0.536084712
+      Z: 0.536084712
+    }
+  }
+  ParentId: 17280838856269730609
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 701460001051041985
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 147.38765
+            Y: 12.7629137
+            Z: 250
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -90
+            Yaw: 160.528778
+            Roll: -160.528732
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 2294248477634291850
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Traffic Light 2Way"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5
+            Y: -1199
+            Z: 843
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 169.999908
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.536084712
+            Y: 0.536084712
+            Z: 0.536084712
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7417984747156664478
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: 59.6920586
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8879988892235788132
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -70
+            Z: 140
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14586651889912473642
+    }
+  }
 }
 Objects {
   Id: 5054672348556188786
