@@ -620,6 +620,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14631589223870650588
+  Name: "Pipe - Quarter Wedge Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_quarter_pipe_wedge_002"
+  }
+}
+Assets {
   Id: 14628005481977396250
   Name: "Craftsman Part - Stair Balust"
   PlatformAssetType: 1
@@ -1637,6 +1646,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9364935555546963267
+  Name: "Wood Raw White"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_raw_white_001_uv"
+  }
+}
+Assets {
   Id: 9229199904602472614
   Name: "Craftsman Roof 01 Cap"
   PlatformAssetType: 1
@@ -1826,6 +1844,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8181154790592795009
+  Name: "Cylinder"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_002"
+  }
+}
+Assets {
   Id: 8125012155363092865
   Name: "Craftsman Wall 02 Window"
   PlatformAssetType: 1
@@ -1850,6 +1877,15 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_Sky"
+  }
+}
+Assets {
+  Id: 7882743657238423865
+  Name: "Pipe - X-Intersection"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_X_intersection_001"
   }
 }
 Assets {
@@ -2807,6 +2843,15 @@ Assets {
   }
 }
 Assets {
+  Id: 913295981890349340
+  Name: "Pipe - Quarter Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_quarter-pipe_002"
+  }
+}
+Assets {
   Id: 685982567640986914
   Name: "Wallpaper Imperial Trellis 02"
   PlatformAssetType: 2
@@ -2876,6 +2921,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_counter_sink_001"
+  }
+}
+Assets {
+  Id: 322051419818285070
+  Name: "Pipe"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_001"
   }
 }
 Assets {

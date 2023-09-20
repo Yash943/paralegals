@@ -1,5 +1,6 @@
+local ROOT = script:GetCustomProperty("Root"):WaitForObject()
 local tlc = World.FindObjectByName("LightNS2") -- Replace with the actual traffic light object
-local gameObjectToPopUp = World.FindObjectByName("YourGameObjectName") -- Replace with your game object's name
+local gameObjectToPopUp = World.FindObjectByName("popup") -- Replace with your game object's name
 
 local popUpHeight = 2 -- Adjust this value to determine how much the object should pop up
 local popUpSpeed = 5 -- Adjust this value to control the speed of the pop-up animation
