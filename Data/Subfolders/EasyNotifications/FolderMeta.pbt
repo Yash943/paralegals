@@ -1,0 +1,79 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "6fea7d995dcd4e7f83056ca320808a87"
+  OwnerAccountId: "595254b9c0274337af46abf862359b00"
+  OwnerName: "Thibault"
+  Version: "1.1.0"
+}
+AssetIdsOriginalToNew {
+  key: 207832743369707557
+  value: 9855451245884369046
+}
+AssetIdsOriginalToNew {
+  key: 788205128811486225
+  value: 9484953863093899968
+}
+AssetIdsOriginalToNew {
+  key: 3804281637794232409
+  value: 5941154719318445977
+}
+AssetIdsOriginalToNew {
+  key: 4019097556540729277
+  value: 7366353391877855029
+}
+AssetIdsOriginalToNew {
+  key: 4228486407386635816
+  value: 11734717348296585902
+}
+AssetIdsOriginalToNew {
+  key: 4319226395376641168
+  value: 12530337061841696872
+}
+AssetIdsOriginalToNew {
+  key: 4464732844219401369
+  value: 3114241095144383613
+}
+AssetIdsOriginalToNew {
+  key: 5441211108341730725
+  value: 7302271099068470151
+}
+AssetIdsOriginalToNew {
+  key: 7588391680831593410
+  value: 14432481637061949670
+}
+AssetIdsOriginalToNew {
+  key: 8596413865955785478
+  value: 13559438235724332548
+}
+AssetIdsOriginalToNew {
+  key: 9349254295694764623
+  value: 7063088404499746374
+}
+AssetIdsOriginalToNew {
+  key: 9374657402438690052
+  value: 813434148410300424
+}
+AssetIdsOriginalToNew {
+  key: 12124138451887432450
+  value: 9408809171775572367
+}
+AssetIdsOriginalToNew {
+  key: 14658712754166768037
+  value: 1936291084381968732
+}
+AssetIdsOriginalToNew {
+  key: 15349618193435901036
+  value: 1247591744828235873
+}
+AssetIdsOriginalToNew {
+  key: 15428777592398355471
+  value: 5238160965237740284
+}
+AssetIdsOriginalToNew {
+  key: 16255859200678579555
+  value: 7155178801253435135
+}
+AssetIdsOriginalToNew {
+  key: 17904063519784337770
+  value: 11028286222662892774
+}

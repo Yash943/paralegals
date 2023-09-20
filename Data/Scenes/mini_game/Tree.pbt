@@ -17,7 +17,12 @@ Objects {
   ChildIds: 9086936746104183945
   ChildIds: 16813558807825262224
   ChildIds: 10005074784157121906
-  ChildIds: 14982843161775482339
+  ChildIds: 9116594507182559747
+  ChildIds: 1966841939230016361
+  ChildIds: 16452223245515767672
+  ChildIds: 9084113818917699616
+  ChildIds: 7625053768424780255
+  ChildIds: 4994243500397111759
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -37,23 +42,212 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14982843161775482339
-  Name: "Default Floor"
+  Id: 4994243500397111759
+  Name: "GameTeleporter"
   Transform {
-    Location {
-      Z: -50
-    }
-    Rotation {
-    }
     Scale {
-      X: 50
-      Y: 50
+      X: 1
+      Y: 1
       Z: 1
     }
   }
   ParentId: 4781671109827199097
-  UnregisteredParameters {
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2804907614588443505
+      value {
+        Overrides {
+          Name: "Name"
+          String: "GameTeleporter"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1650
+            Y: -5200
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3
+            Y: 3
+            Z: 3
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 20
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11973089075499546431
+    }
   }
+}
+Objects {
+  Id: 7625053768424780255
+  Name: "GameTeleporter"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2804907614588443505
+      value {
+        Overrides {
+          Name: "Name"
+          String: "GameTeleporter"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2200
+            Y: -2300
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3
+            Y: 3
+            Z: 3
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -30
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9626807180161504439
+    }
+  }
+}
+Objects {
+  Id: 9084113818917699616
+  Name: "GameTeleporter"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2804907614588443505
+      value {
+        Overrides {
+          Name: "Name"
+          String: "GameTeleporter"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -250
+            Y: -7100
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3
+            Y: 3
+            Z: 3
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 80
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16569017837039183798
+    }
+  }
+}
+Objects {
+  Id: 16452223245515767672
+  Name: "GameTeleporter"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2804907614588443505
+      value {
+        Overrides {
+          Name: "Name"
+          String: "GameTeleporter"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1900
+            Y: -6450
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3
+            Y: 3
+            Z: 3
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -60
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8563068835432904286
+    }
+  }
+}
+Objects {
+  Id: 1966841939230016361
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: 1750
+      Y: -1100
+      Z: 50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 6066401325688505209
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -63,23 +257,105 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Return to game"
+    TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+    InteractionTemplate {
+      Id: 841534158063459245
+    }
+    BreadcrumbTemplate {
+      Id: 841534158063459245
     }
   }
-  Relevance {
-    Value: "mc:edistancerelevance:critical"
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6066401325688505209
+  Name: "returntogame"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1966841939230016361
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 13877664913222033879
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9116594507182559747
+  Name: "ZELDA CAMP GAME JAM"
+  Transform {
+    Location {
+      X: 1350
+      Y: -800
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "ZELDA CAMP"
+  }
+  InstanceHistory {
+    SelfId: 9116594507182559747
+    SubobjectId: 15265228568760108103
+    InstanceId: 4175846501213035238
+    TemplateId: 975317578470123582
+    WasRoot: true
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -467,6 +743,7 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
+      Y: -4100
       Z: 115
     }
     Rotation {
@@ -495,7 +772,7 @@ Objects {
   PlayerSpawnPoint {
     TeamInt: 1
     PlayerScaleMultiplier: 1
-    SpawnKey: "transfer"
+    SpawnKey: "newstate"
     SpawnEffectsTemplate {
       Id: 841534158063459245
     }

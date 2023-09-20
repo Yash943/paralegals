@@ -17,15 +17,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16390998142916593351
-  Name: "Pipe - 8-Sided - Thin - Rounded"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_pipe_eightsided_thin_lg_001_ref"
-  }
-}
-Assets {
   Id: 13270574573681104760
   Name: "Building 9 Slice Composite 02"
   PlatformAssetType: 2
@@ -77,14 +68,5 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_building_skyscraper_001"
-  }
-}
-Assets {
-  Id: 3177282544628105629
-  Name: "Pipe - 5-Sided"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_pipe_fivesided_002"
   }
 }
