@@ -33,7 +33,8 @@ Objects {
   ChildIds: 8415506335445368364
   ChildIds: 2946750634856698716
   ChildIds: 13170390407632333494
-  ChildIds: 8874579029569495453
+  ChildIds: 3332520270939177378
+  ChildIds: 14249434715379581050
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -53,15 +54,12 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8874579029569495453
-  Name: "Trigger"
+  Id: 14249434715379581050
+  Name: "MessageTriggers_path"
   Transform {
     Location {
-      X: 16100
-      Y: 14500
-      Z: 100
-    }
-    Rotation {
+      X: 15950
+      Y: 12900
     }
     Scale {
       X: 1
@@ -70,9 +68,8 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  ChildIds: 8720529418249509356
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -80,23 +77,16 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "MessageTriggers_path"
   }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-    InteractionTemplate {
-      Id: 841534158063459245
-    }
-    BreadcrumbTemplate {
-      Id: 841534158063459245
-    }
+  InstanceHistory {
+    SelfId: 14249434715379581050
+    SubobjectId: 300141786418524781
+    InstanceId: 3309004535085299773
+    TemplateId: 12504074300332279029
+    WasRoot: true
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -104,12 +94,16 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8720529418249509356
-  Name: "NewScript_1"
+  Id: 3332520270939177378
+  Name: "MessageTriggers"
   Transform {
     Location {
+      X: 16150
+      Y: 14800
+      Z: 50
     }
     Rotation {
+      Yaw: -90
     }
     Scale {
       X: 1
@@ -117,7 +111,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8874579029569495453
+  ParentId: 4781671109827199097
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -127,13 +121,16 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "MessageTriggers"
   }
-  Script {
-    ScriptAsset {
-      Id: 5777940329120952384
-    }
+  InstanceHistory {
+    SelfId: 3332520270939177378
+    SubobjectId: 300141786418524781
+    InstanceId: 18276860521377770714
+    TemplateId: 16418638659843953565
+    WasRoot: true
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
